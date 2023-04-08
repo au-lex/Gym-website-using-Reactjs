@@ -1,0 +1,590 @@
+.gym-container {
+    margin-top: 10rem;
+
+}
+
+.gym-text-container {
+    margin-left: 25rem;
+    margin-top: 18rem;
+}
+
+.gym-title {
+    font-size: 2.5rem;
+    margin-left: 6rem;
+}
+.gym-desc {
+    width: 70%;
+    margin: 1.5rem 0;
+    line-height: 25px;
+}
+
+.gym-card-controller {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding: 0 10rem;
+    flex-wrap: wrap;
+}
+
+
+
+.highlight02 {
+    background-color: var(--primary-color);
+    border-bottom: none;
+    color: aliceblue;
+}
+
+
+
+
+.gym-card01 {
+    width: 250px;
+    height: 500px;
+    background-color: rgb(253, 254, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 1rem;
+    margin-top: 1rem;
+    
+}
+
+
+.title-container {
+    /* background-color: cadetblue; */
+    padding: 4rem 1rem;
+    border-bottom: .4px solid var(--primary-color);
+}
+
+.card01-title {
+    margin-top: -2rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    text-align: center;
+    /* color: var(--heading-color); */
+}
+
+.desc {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    
+    
+}
+
+.des-amount {
+font-size: 12px;
+color: aliceblue;
+
+}
+
+
+.gymText-desc {
+    margin-left: 1rem;
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+.gymText-desc li {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.Gym-btnContainer {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.gym-btn {
+    display: inline-block;
+    width: 10rem;
+    height: 2.5rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 600;
+    padding: .8rem 2rem;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    margin-left: 0rem;
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+
+@media screen and (max-width: 834px) {
+    .gym-container {
+        margin-top: 3rem;
+    
+    }
+    
+    .gym-text-container {
+        margin-left: 1rem;
+    }
+    
+    .gym-title {
+        font-size: 3.2rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .gym-desc {
+        width: 100%;
+        margin: 1.5rem 0;
+        line-height: 25px;
+        padding: 0 .2rem;
+        text-align: center;
+    }
+
+    .gym-card-controller {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        padding: 0 0rem;
+        margin-left: 10.2rem;
+        flex-wrap: wrap;
+    }
+
+    .gym-card01 {
+        width: 500px;
+        height: 600px;
+        margin: 2rem 0;
+    }
+
+    .card01-title {
+        font-size: 40px;
+    }
+
+
+    .desc {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 800;
+        
+        
+    }
+    
+    .des-amount {
+    font-size: 12px;
+    color: aliceblue;
+    
+    }
+    
+    
+    .gymText-desc {
+        margin-left: 1rem;
+        margin-top: 2rem;
+        padding: 0 1rem;
+    }
+    .gymText-desc li {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    
+    .Gym-btnContainer {
+        margin-top: 4rem;
+        text-align: center;
+    }
+    
+    .gym-btn {
+        width: 13rem;
+        height: 3.5rem;
+        font-size: 18px;
+        padding: 1.2rem 2rem;
+        margin-left: 0rem;
+       
+    }
+    
+}
+
+
+@media screen and (max-width: 820px) {
+    .gym-container {
+        margin-top: 3rem;
+    
+    }
+    
+    .gym-text-container {
+        margin-left: 1rem;
+    }
+    
+    .gym-title {
+        font-size: 3.2rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .gym-desc {
+        width: 100%;
+        margin: 1.5rem 0;
+        line-height: 25px;
+        padding: 0 .2rem;
+        text-align: center;
+    }
+
+    .gym-card-controller {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        padding: 0 0rem;
+        margin-left: 10.2rem;
+        flex-wrap: wrap;
+    }
+
+    .gym-card01 {
+        width: 500px;
+        height: 600px;
+        margin: 2rem 0;
+    }
+
+    .card01-title {
+        font-size: 40px;
+    }
+
+
+    .desc {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 800;
+        
+        
+    }
+    
+    .des-amount {
+    font-size: 12px;
+    color: aliceblue;
+    
+    }
+    
+    
+    .gymText-desc {
+        margin-left: 1rem;
+        margin-top: 2rem;
+        padding: 0 1rem;
+    }
+    .gymText-desc li {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    
+    .Gym-btnContainer {
+        margin-top: 4rem;
+        text-align: center;
+    }
+    
+    .gym-btn {
+        width: 13rem;
+        height: 3.5rem;
+        font-size: 18px;
+        padding: 1.2rem 2rem;
+        margin-left: 0rem;
+       
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 414px) {
+    .gym-container {
+        margin-top: 4rem;
+    
+    }
+    
+    .gym-text-container {
+        margin-left: 1rem;
+    }
+    
+    .gym-title {
+        font-size: 2.2rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .gym-desc {
+        width: 100%;
+        margin: 1.5rem 0;
+        line-height: 25px;
+        padding: 0 .5rem;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .gymText-desc li {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .gym-card-controller {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        padding: 0 0rem;
+        margin-left: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .gym-card01 {
+        width: 360px;
+        height: 500px;
+        margin: 2rem 0;
+    }
+
+    .card01-title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .gym-container {
+        margin-top: 4rem;
+    
+    }
+    
+    .gym-text-container {
+        margin-left: 1rem;
+       
+    }
+    
+    .gym-title {
+        font-size: 2.2rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .gym-desc {
+        width: 100%;
+        margin: 1.5rem 0;
+        line-height: 25px;
+        padding: 0 .5rem;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .gymText-desc li {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .gym-card-controller {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        padding: 0 0rem;
+        margin-left: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .gym-card01 {
+        width: 360px;
+        height: 500px;
+        margin: 2rem 0;
+    }
+
+    .card01-title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .gym-container {
+        margin-top: 4rem;
+    
+    }
+    
+    .gym-text-container {
+        margin-left: 1rem;
+    }
+    
+    .gym-title {
+        font-size: 2.2rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .gym-desc {
+        width: 100%;
+        margin: 1.5rem 0;
+        line-height: 25px;
+        padding: 0 .2rem;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .gymText-desc li {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .gym-card-controller {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        padding: 0 0rem;
+        margin-left: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .gym-card01 {
+        width: 340px;
+        height: 500px;
+        margin: 2rem 0;
+    }
+
+    .card01-title {
+        font-size: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 390px) {
+    .gym-container {
+        margin-top: 4rem;
+    
+    }
+    
+    .gym-text-container {
+        margin-left: 1rem;
+        margin-top: 4rem;
+    }
+    
+    .gym-title {
+        font-size: 2.2rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .gym-desc {
+        width: 100%;
+        margin: 1.5rem 0;
+        line-height: 25px;
+        padding: 0 .2rem;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .gymText-desc li {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .gym-card-controller {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        padding: 0 0rem;
+        margin-left: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .gym-card01 {
+        width: 340px;
+        height: 500px;
+        margin: 2rem 0;
+    }
+
+    .card01-title {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .gym-container {
+        margin-top: 4rem;
+    
+    }
+    
+    .gym-text-container {
+        margin-left: 1rem;
+    }
+    
+    .gym-title {
+        font-size: 2.2rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .gym-desc {
+        width: 100%;
+        margin: 1.5rem 0;
+        line-height: 25px;
+        padding: 0 .2rem;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .gymText-desc li {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .gym-card-controller {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        padding: 0 0rem;
+        margin-left: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .gym-card01 {
+        width: 300px;
+        height: 500px;
+        margin: 1rem 0;
+    }
+
+    .card01-title {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+   
+    .gym-container {
+        margin-top: 4rem;
+    
+    }
+    
+    .gym-text-container {
+        margin-left: 1rem;
+    }
+    
+    .gym-title {
+        font-size: 2.2rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .gym-desc {
+        width: 100%;
+        margin: 1.5rem 0;
+        line-height: 25px;
+        padding: 0 .2rem;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .gymText-desc li {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .gym-card-controller {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        padding: 0 0rem;
+        margin-left: 1.8rem;
+        flex-wrap: wrap;
+    }
+
+    .gym-card01 {
+        width: 300px;
+        height: 500px;
+        margin: 2rem 0;
+    }
+
+    .card01-title {
+        font-size: 20px;
+    }
+}
+
+
+
+

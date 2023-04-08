@@ -1,0 +1,938 @@
+.heroSection-container {
+    display: flex;
+    padding: 0 10rem;
+    margin-top: 5rem;
+}
+
+.heroDesc-container {
+    margin-top: 4rem;
+    color: var(--heading-color);
+}
+
+.hero-text {
+    font-size: 2.2rem;
+}
+.hcolor {
+    color: var(--primary-color);
+}
+
+.hero-text-desc {
+    margin: 2.5rem 0;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.hero-btn-container {
+    margin-top: 4rem;
+}
+
+.getStarted-btn {
+    width: 9rem;
+    height: 6rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 600;
+    padding: .6rem .8rem;
+    color: aliceblue;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    margin-right: 2rem;
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.watch-video {
+    width: 9rem;
+    height: 6rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 600;
+    padding: .6rem .8rem;
+    color:var(--heading-color);
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.1);
+
+}
+
+.heroIMg-container {
+    position: relative;
+}
+
+.circle-hero {
+    width: 400px;
+    height: 400px;
+    border: 30px solid red;
+    border-radius: 50%;
+    position: absolute;
+    right: 4rem;
+    top: 2rem;
+    z-index: -20;
+}
+
+.circle-01 {
+    width: 400px;
+    height: 400px;
+    border: 30px solid var(--heading-color);
+    position: absolute;
+    right: 5rem;
+    top: 3rem;
+}
+
+.circle-02 {
+    width: 360px;
+    height: 360px;
+    border: 30px solid var(--primary-color);
+    position: absolute;
+    right: 6rem;
+    top: 4rem;
+}
+.circle-03 {
+    width: 325px;
+    height: 325px;
+    border: 30px solid var(--heading-color2);
+    position: absolute;
+    right: 7rem;
+    top: 5rem;
+}
+
+.square-hero {
+    width: 30px;
+    height: 30px;
+    background-color: var(--heading-color2);
+    position: absolute;
+    right: 7rem;
+    top: 5rem;
+}
+
+.square-01 {
+    background-color: brown;
+    left: 2rem;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.square-02 {
+    background-color: rgb(238, 230, 230);
+    width: 80px;
+    height: 80px;
+    left: 2rem;
+    border-radius: 4px;
+    top: 18rem;
+    position: absolute;
+    animation: square-02 infinite 2s linear;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+  
+
+.square-03 {
+    background-color: rgb(248, 252, 254);
+    border-radius: 4px;
+    height: 90px;
+    width: 90px;
+    right: 3rem;
+    font-size: 10px;
+    /* top: rem; */
+    position: absolute;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.square-03 i {
+    background-color:var(--primary-color);
+    font-size: 15px;
+    margin-top: .8rem;
+    position: absolute;
+    left: 2.2rem;
+    border-radius: 50%;
+    padding: .3rem;
+    color: aliceblue;
+}
+
+.ii {
+    font-size: 12px;
+    width: 90%;
+    font-weight: 700;
+    position: absolute;
+    top: 2.8rem;
+    left: .8rem;
+}
+
+
+
+/* ======media-query======= */
+
+
+@media screen and (max-width: 834px) {
+    .heroSection-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+        margin-top: 2rem;
+        
+    }
+
+    .heroImg-controller {
+        width: 700px;
+        height: 700px;
+        margin-top: 4rem;
+    
+    }
+
+    .heroImg-controller img {
+        width: 100%;
+        height: auto;
+        margin-left: 4rem;
+    }
+
+    .heroDesc-container {
+        margin-top: 8rem;
+        margin-left: 1rem;
+        color: var(--heading-color);
+    }
+    
+    .hero-text {
+        font-size: 2.5rem;
+    }
+
+
+    .getStarted-btn {
+        display: inline-block;
+        width: 12rem;
+        height: 3.5rem;
+        font-size: 18px;
+        padding: 1.2rem 2rem;
+        text-align: center;
+    
+        
+    }
+    
+    .watch-video {
+        display: inline-block;
+        width: 12rem;
+        height: 3.5rem;
+        font-size: 18px;
+        padding: 1.2rem 2rem;
+        text-align: center;
+    }
+
+
+   .circle-hero {
+    left: 1rem;
+   }
+
+
+
+   .circle-01 {
+    width: 550px;
+    height: 550px;
+    border: 30px solid var(--heading-color);
+    position: absolute;
+    left: 6rem;
+    top: 3rem;
+}
+
+.circle-02 {
+    width: 500px;
+    height: 500px;
+    border: 30px solid var(--primary-color);
+    position: absolute;
+    left: 7.8rem;
+    top: 4.5rem;
+}
+.circle-03 {
+    width: 450px;
+    height: 450px;
+    border: 30px solid var(--heading-color2);
+    position: absolute;
+    left: 9.3rem;
+    top: 6rem;
+}
+
+.square-02 {
+    background-color: rgb(238, 230, 230);
+    width: 80px;
+    height: 80px;
+    left: 10rem;
+    top: 35rem;
+}
+
+.square-03 {
+    background-color: rgb(248, 252, 254);
+    border-radius: 4px;
+    height: 100px;
+    width: 100px;
+    right: 3rem;
+  
+}
+.square-01 {
+    background-color: wheat;
+    height: 90px;
+    width: 90px;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 820px) {
+    .heroSection-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+        margin-top: 2rem;
+        
+    }
+
+    .heroImg-controller {
+        width: 700px;
+        height: 700px;
+        margin-top: 4rem;
+    
+    }
+
+    .heroImg-controller img {
+        width: 100%;
+        height: auto;
+        margin-left: 4rem;
+    }
+
+    .heroDesc-container {
+        margin-top: 8rem;
+        margin-left: 1rem;
+        color: var(--heading-color);
+    }
+    
+    .hero-text {
+        font-size: 2.5rem;
+    }
+
+
+    .getStarted-btn {
+        display: inline-block;
+        width: 12rem;
+        height: 3.5rem;
+        font-size: 18px;
+        padding: 1.2rem 2rem;
+        text-align: center;
+    
+        
+    }
+    
+    .watch-video {
+        display: inline-block;
+        width: 12rem;
+        height: 3.5rem;
+        font-size: 18px;
+        padding: 1.2rem 2rem;
+        text-align: center;
+    }
+
+
+   .circle-hero {
+    left: 1rem;
+   }
+
+
+
+   .circle-01 {
+    width: 550px;
+    height: 550px;
+    border: 30px solid var(--heading-color);
+    position: absolute;
+    left: 6rem;
+    top: 3rem;
+}
+
+.circle-02 {
+    width: 500px;
+    height: 500px;
+    border: 30px solid var(--primary-color);
+    position: absolute;
+    left: 7.8rem;
+    top: 4.5rem;
+}
+.circle-03 {
+    width: 450px;
+    height: 450px;
+    border: 30px solid var(--heading-color2);
+    position: absolute;
+    left: 9.3rem;
+    top: 6rem;
+}
+
+.square-02 {
+    background-color: rgb(238, 230, 230);
+    width: 80px;
+    height: 80px;
+    left: 10rem;
+    top: 35rem;
+}
+
+.square-03 {
+    background-color: rgb(248, 252, 254);
+    border-radius: 4px;
+    height: 100px;
+    width: 100px;
+    right: 3rem;
+  
+}
+.square-01 {
+    background-color: wheat;
+    height: 90px;
+    width: 90px;
+}
+
+
+}
+
+
+@media screen and (max-width: 414px) {
+    .heroSection-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+        margin-top: 2rem;
+        
+    }
+
+    .heroImg-controller {
+        width: 500px;
+        height: 500px;
+        margin-top: 4rem;
+    
+    }
+
+    .heroImg-controller img {
+        width: 100%;
+        height: auto;
+        margin-left: -4rem;
+    }
+
+    .heroDesc-container {
+        margin-top: 3.3rem;
+        margin-left: 1rem;
+        color: var(--heading-color);
+    }
+    
+    .hero-text {
+        font-size: 2rem;
+    }
+
+   .circle-hero {
+    left: -1rem;
+   }
+
+
+
+   .circle-01 {
+    width: 350px;
+    height: 350px;
+    border: 30px solid var(--heading-color);
+    position: absolute;
+    left: .3rem;
+    top: 3rem;
+}
+
+.circle-02 {
+    width: 300px;
+    height: 300px;
+    border: 30px solid var(--primary-color);
+    position: absolute;
+    left: 1.9rem;
+    top: 4.5rem;
+}
+.circle-03 {
+    width: 250px;
+    height: 250px;
+    border: 30px solid var(--heading-color2);
+    position: absolute;
+    left: 3.5rem;
+    top: 6rem;
+}
+
+.square-02 {
+    background-color: rgb(147, 58, 58);
+    width: 80px;
+    height: 80px;
+    left: 1.6rem;
+    top: 22rem;
+}
+
+.square-03 {
+    background-color: rgb(248, 252, 254);
+    border-radius: 4px;
+    height: 90px;
+    width: 90px;
+    right: 1rem;
+  
+}
+
+.getStarted-btn {
+    display: inline-block;
+    width: 9rem;
+    height: 3.5rem;
+    font-size: 15px;
+    padding: 1.2rem 2rem;
+    text-align: center;
+
+    
+}
+
+.watch-video {
+    display: inline-block;
+    width: 9rem;
+    height: 3.5rem;
+    font-size: 14px;
+    padding: 1.2rem 2rem;
+    text-align: center;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 412px) {
+    .heroSection-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+        margin-top: 2rem;
+        
+    }
+
+    .heroImg-controller {
+        width: 500px;
+        height: 500px;
+        margin-top: 4rem;
+    
+    }
+
+    .heroImg-controller img {
+        width: 100%;
+        height: auto;
+        margin-left: -4rem;
+    }
+
+    .heroDesc-container {
+        margin-top: 3.3rem;
+        margin-left: 1rem;
+        color: var(--heading-color);
+    }
+    
+    .hero-text {
+        font-size: 2rem;
+    }
+
+   .circle-hero {
+    left: -1rem;
+   }
+
+
+
+   .circle-01 {
+    width: 350px;
+    height: 350px;
+    border: 30px solid var(--heading-color);
+    position: absolute;
+    left: .3rem;
+    top: 3rem;
+}
+
+.circle-02 {
+    width: 300px;
+    height: 300px;
+    border: 30px solid var(--primary-color);
+    position: absolute;
+    left: 1.9rem;
+    top: 4.5rem;
+}
+.circle-03 {
+    width: 250px;
+    height: 250px;
+    border: 30px solid var(--heading-color2);
+    position: absolute;
+    left: 3.5rem;
+    top: 6rem;
+}
+
+.square-02 {
+    background-color: rgb(147, 58, 58);
+    width: 80px;
+    height: 80px;
+    left: 1.6rem;
+    top: 22rem;
+}
+
+.square-03 {
+    background-color: rgb(248, 252, 254);
+    border-radius: 4px;
+    height: 90px;
+    width: 90px;
+    right: 1rem;
+  
+}
+
+.getStarted-btn {
+    display: inline-block;
+    width: 9rem;
+    height: 3.5rem;
+    font-size: 15px;
+    padding: 1.2rem 2rem;
+    text-align: center;
+
+    
+}
+
+.watch-video {
+    display: inline-block;
+    width: 9rem;
+    height: 3.5rem;
+    font-size: 14px;
+    padding: 1.2rem 2rem;
+    text-align: center;
+}
+
+
+
+}
+
+
+
+@media screen and (max-width: 393px) {
+    .heroSection-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+        margin-top: 2rem;
+        
+    }
+
+    .heroImg-controller {
+        width: 500px;
+        height: 500px;
+        margin-top: 4rem;
+    
+    }
+
+    .heroImg-controller img {
+        width: 100%;
+        height: auto;
+        margin-left: -4rem;
+    }
+
+    .heroDesc-container {
+        margin-top: 3.3rem;
+        margin-left: 1rem;
+        color: var(--heading-color);
+    }
+    
+    .hero-text {
+        font-size: 2rem;
+    }
+
+   .circle-hero {
+    left: -1rem;
+   }
+
+
+
+   .circle-01 {
+    width: 350px;
+    height: 350px;
+    border: 30px solid var(--heading-color);
+    position: absolute;
+    left: .3rem;
+    top: 3rem;
+}
+
+.circle-02 {
+    width: 300px;
+    height: 300px;
+    border: 30px solid var(--primary-color);
+    position: absolute;
+    left: 1.9rem;
+    top: 4.5rem;
+}
+.circle-03 {
+    width: 250px;
+    height: 250px;
+    border: 30px solid var(--heading-color2);
+    position: absolute;
+    left: 3.5rem;
+    top: 6rem;
+}
+
+.square-02 {
+    background-color: rgb(147, 58, 58);
+    width: 80px;
+    height: 80px;
+    left: 1.6rem;
+    top: 22rem;
+}
+
+.square-03 {
+    background-color: rgb(248, 252, 254);
+    border-radius: 4px;
+    height: 90px;
+    width: 90px;
+    right: 1rem;
+  
+}
+
+.getStarted-btn {
+    display: inline-block;
+    width: 9rem;
+    height: 3.5rem;
+    font-size: 15px;
+    padding: 1.2rem 2rem;
+    text-align: center;
+
+    
+}
+
+.watch-video {
+    display: inline-block;
+    width: 9rem;
+    height: 3.5rem;
+    font-size: 14px;
+    padding: 1.2rem 2rem;
+    text-align: center;
+}
+
+
+
+}
+
+@media screen and (max-width: 390px) {
+    .heroSection-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+        margin-top: 2rem;
+        
+    }
+
+    .heroImg-controller {
+        width: 500px;
+        height: 500px;
+        margin-top: 4rem;
+    
+    }
+
+    .heroImg-controller img {
+        width: 100%;
+        height: auto;
+        margin-left: -4rem;
+    }
+
+    .heroDesc-container {
+        margin-top: 3.3rem;
+        margin-left: 1rem;
+        color: var(--heading-color);
+    }
+    
+    .hero-text {
+        font-size: 2rem;
+    }
+
+   .circle-hero {
+    left: -1rem;
+   }
+
+
+
+   .circle-01 {
+    width: 350px;
+    height: 350px;
+    border: 30px solid var(--heading-color);
+    position: absolute;
+    left: .3rem;
+    top: 3rem;
+}
+
+.circle-02 {
+    width: 300px;
+    height: 300px;
+    border: 30px solid var(--primary-color);
+    position: absolute;
+    left: 1.9rem;
+    top: 4.5rem;
+}
+.circle-03 {
+    width: 250px;
+    height: 250px;
+    border: 30px solid var(--heading-color2);
+    position: absolute;
+    left: 3.5rem;
+    top: 6rem;
+}
+
+.square-02 {
+    background-color: rgb(147, 58, 58);
+    width: 80px;
+    height: 80px;
+    left: 1.6rem;
+    top: 22rem;
+}
+
+.square-03 {
+    background-color: rgb(248, 252, 254);
+    border-radius: 4px;
+    height: 90px;
+    width: 90px;
+    right: 1rem;
+  
+}
+
+.getStarted-btn {
+    display: inline-block;
+    width: 9rem;
+    height: 3.5rem;
+    font-size: 15px;
+    padding: 1.2rem 2rem;
+    text-align: center;
+
+    
+}
+
+.watch-video {
+    display: inline-block;
+    width: 9rem;
+    height: 3.5rem;
+    font-size: 14px;
+    padding: 1.2rem 2rem;
+    text-align: center;
+}
+
+
+
+}
+
+@media screen and (max-width: 360px) {
+    .heroSection-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+        margin-top: 2rem;
+        
+    }
+
+    .heroImg-controller {
+        width: 400px;
+        height: 400px;
+        margin-top: 4rem;
+    
+    }
+
+    .heroImg-controller img {
+        width: 100%;
+        height: auto;
+        margin-left: -4rem;
+    }
+
+    .heroDesc-container {
+        margin-top: 3.3rem;
+        margin-left: 1rem;
+        color: var(--heading-color);
+    }
+    
+    .hero-text {
+        font-size: 2rem;
+    }
+
+   .circle-hero {
+    right: 1rem;
+   }
+
+
+
+   .circle-01 {
+    width: 320px;
+    height: 320px;
+    border: 30px solid var(--heading-color);
+    position: absolute;
+    left: 0rem;
+    top: 3rem;
+}
+
+.circle-02 {
+    width: 280px;
+    height: 280px;
+    border: 30px solid var(--primary-color);
+    position: absolute;
+    left: 1rem;
+    top: 4.5rem;
+}
+.circle-03 {
+    width: 230px;
+    height: 230px;
+    border: 30px solid var(--heading-color2);
+    position: absolute;
+    left: 2.5rem;
+    top: 6rem;
+}
+
+.square-01 {
+left: .7rem;
+padding-top: 2rem;
+}
+
+.square-01 i {
+    font-size: 2rem;
+    color: red;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1rem ;
+   padding: .4rem;
+   border-radius: 50%;
+}
+
+.square-02 {
+    background-color: rgb(147, 58, 58);
+    width: 80px;
+    height: 80px;
+    left: 1rem;
+    top: 22rem;
+}
+
+.square-03 {
+    background-color: rgb(248, 252, 254);
+    border-radius: 4px;
+    height: 90px;
+    width: 90px;
+    right: .6rem;
+  
+}
+
+.getStarted-btn {
+    display: inline-block;
+    width: 8rem;
+    height: 3.5rem;
+    font-size: 15px;
+    padding: 1.2rem 1rem;
+    text-align: center;
+
+    
+}
+
+.watch-video {
+    display: inline-block;
+    width: 8rem;
+    height: 3.5rem;
+    font-size: 14px;
+    padding: 1.2rem 1rem;
+    text-align: center;
+}
+
+
+
+}
+
+
+
